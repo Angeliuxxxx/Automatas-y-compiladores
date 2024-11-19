@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+
+
+/*
+Este es un comentario
+de múltiples líneas.
+*/
+
+int main() {
+    int a = 5;       
+    float b = 10.5;   
+    char c = 'x';     
+
+    int suma = a + 10;
+    int resta = a - 2;
+    int producto = a * 3;
+    int division = a / 2;
+    int modulo = a % 2;
+
+    bool resultado = (a > 2) && (b < 20);
+
+    cout << "Constantes: " << 42 << " " << 3.14 << endl;
+
+   
+    if (a == 5) {
+        cout << "Símbolos especiales y operadores funcionan bien." << endl;
+    }
+
+    return 0;
+}
